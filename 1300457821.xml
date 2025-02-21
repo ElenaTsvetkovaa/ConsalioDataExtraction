@@ -1,0 +1,204 @@
+
+<rsm:CrossIndustryInvoice xmlns:clm210AccountingE501="urn:un:unece:uncefact:codelist:standard:EDIFICAS-EU:AccountingAccountType:D11A"
+                          xmlns:clm210AccountingE601="urn:un:unece:uncefact:codelist:standard:EDIFICAS-EU:AccountingAmountType:D11A"
+                          xmlns:clm5ISO42173A="urn:un:unece:uncefact:codelist:standard:ISO:ISO3AlphaCurrencyCode:2012-08-31"
+                          xmlns:clm61229LineStatusCode="urn:un:unece:uncefact:codelist:standard:UNECE:ActionCode:D16A"
+                          xmlns:clm64465="urn:un:unece:uncefact:codelist:standard:UNECE:AdjustmentReasonDescriptionCode:D16A"
+                          xmlns:clm65189AllowanceChargeID="urn:un:unece:uncefact:codelist:standard:UNECE:AllowanceChargeIdentificationCode:D16A"
+                          xmlns:clm64465AllowanceChargeReasonCode="urn:un:unece:uncefact:codelist:standard:UNECE:AllowanceChargeReasonCode:D16A"
+                          xmlns:clm67233AutomaticDataCaptureMethodCode="urn:un:unece:uncefact:codelist:standard:UNECE:AutomaticDataCaptureMethodCode:D16A"
+                          xmlns:clm67085b="urn:un:unece:uncefact:codelist:standard:UNECE:CargoOperationalCategoryCode:D16A"
+                          xmlns:clm6Recommendation21AnnexI="urn:un:unece:uncefact:codelist:standard:UNECE:CargoTypeCode:1996Rev2Final"
+                          xmlns:clm67357="urn:un:unece:uncefact:codelist:standard:UNECE:CommodityIdentificationCode:D16A"
+                          xmlns:clm63155CommunicationChannelCode="urn:un:unece:uncefact:codelist:standard:UNECE:CommunicationMeansTypeCode:D16A"
+                          xmlns:clm63139ContactTypeCode="urn:un:unece:uncefact:codelist:standard:UNECE:ContactFunctionCode:D16A"
+                          xmlns:clm64053="urn:un:unece:uncefact:codelist:standard:UNECE:DeliveryTermsCode:2010"
+                          xmlns:clm66145="urn:un:unece:uncefact:codelist:standard:UNECE:DimensionTypeCode:D16A"
+                          xmlns:clm61001="urn:un:unece:uncefact:codelist:standard:UNECE:DocumentNameCode:D16A"
+                          xmlns:clm61001Accounting="urn:un:unece:uncefact:codelist:standard:UNECE:DocumentNameCode_Accounting:D16A"
+                          xmlns:clm61373="urn:un:unece:uncefact:codelist:standard:UNECE:DocumentStatusCode:D16A"
+                          xmlns:clm65153="urn:un:unece:uncefact:codelist:standard:UNECE:DutyTaxFeeTypeCode:D16A"
+                          xmlns:clm65305="urn:un:unece:uncefact:codelist:standard:UNECE:DutyorTaxorFeeCategoryCode:D16A"
+                          xmlns:clm68155="urn:un:unece:uncefact:codelist:standard:UNECE:EquipmentSizeTypeDescriptionCode:D16A"
+                          xmlns:clm62475="urn:un:unece:uncefact:codelist:standard:UNECE:EventTimeReferenceCode:D16A"
+                          xmlns:clm62475PaymentTermsEvent="urn:un:unece:uncefact:codelist:standard:UNECE:EventTimeReferenceCodePaymentTermsEvent:D16A"
+                          xmlns:clm6TDED6131="urn:un:unece:uncefact:codelist:standard:UNECE:FreightChargeQuantityUnitBasisCode:D16A"
+                          xmlns:clm65243="urn:un:unece:uncefact:codelist:standard:UNECE:FreightChargeTariffCode:D16A"
+                          xmlns:clm6TDED7357="urn:un:unece:uncefact:codelist:standard:UNECE:GoodsTypeCode:D16A"
+                          xmlns:clm6TDED7361="urn:un:unece:uncefact:codelist:standard:UNECE:GoodsTypeExtensionCode:D16A"
+                          xmlns:clm6Recommendation20Linear="urn:un:unece:uncefact:codelist:standard:UNECE:MeasurementUnitCommonCodeLinear:4"
+                          xmlns:clm6Recommendation20Volume="urn:un:unece:uncefact:codelist:standard:UNECE:MeasurementUnitCommonCodeVolume:4"
+                          xmlns:clm6Recommendation20Weight="urn:un:unece:uncefact:codelist:standard:UNECE:MeasurementUnitCommonCodeWeight:4"
+                          xmlns:clm61225MessageFunctionTypeCode="urn:un:unece:uncefact:codelist:standard:UNECE:MessageFunctionCode:D16A"
+                          xmlns:clm67065="urn:un:unece:uncefact:codelist:standard:UNECE:PackageTypeCode:2006"
+                          xmlns:clm67233PackagingMarkingCode="urn:un:unece:uncefact:codelist:standard:UNECE:PackagingMarkingCode:D16A"
+                          xmlns:clm63035="urn:un:unece:uncefact:codelist:standard:UNECE:PartyRoleCode:D16A"
+                          xmlns:clm63035ChargePaying="urn:un:unece:uncefact:codelist:standard:UNECE:PartyRoleCode_ChargePaying:D16A"
+                          xmlns:clm64431="urn:un:unece:uncefact:codelist:standard:UNECE:PaymentGuaranteeMeansCode:D16A"
+                          xmlns:clm64435="urn:un:unece:uncefact:codelist:standard:UNECE:PaymentMeansChannelCode:D16A"
+                          xmlns:clm64461="urn:un:unece:uncefact:codelist:standard:UNECE:PaymentMeansCode:D16A"
+                          xmlns:clm64279="urn:un:unece:uncefact:codelist:standard:UNECE:PaymentTermsTypeCode:D16A"
+                          xmlns:clm65375="urn:un:unece:uncefact:codelist:standard:UNECE:PriceTypeCode:D16A"
+                          xmlns:clm61153ReferenceTypeCode="urn:un:unece:uncefact:codelist:standard:UNECE:ReferenceTypeCode:D16A"
+                          xmlns:clm62379="urn:un:unece:uncefact:codelist:standard:UNECE:TimePointFormatCode:D16A"
+                          xmlns:clm68053="urn:un:unece:uncefact:codelist:standard:UNECE:TransportEquipmentCategoryCode:D16A"
+                          xmlns:clm68169="urn:un:unece:uncefact:codelist:standard:UNECE:TransportEquipmentFullnessCode:D16A"
+                          xmlns:clm6Recommendation28="urn:un:unece:uncefact:codelist:standard:UNECE:TransportMeansTypeCode:2007"
+                          xmlns:clm6Recommendation19="urn:un:unece:uncefact:codelist:standard:UNECE:TransportModeCode:2"
+                          xmlns:clm68051="urn:un:unece:uncefact:codelist:standard:UNECE:TransportMovementStageCode:D16A"
+                          xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+                          xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100"
+                          xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+                          xmlns:ids5ISO316612A="urn:un:unece:uncefact:identifierlist:standard:ISO:ISOTwo-letterCountryCode:SecondEdition2006"
+                          xmlns:ids6Recommendation23="urn:un:unece:uncefact:identifierlist:standard:UNECE:FreightCostCode:4"
+                          xmlns:ids64277="urn:un:unece:uncefact:identifierlist:standard:UNECE:PaymentTermsDescriptionIdentifier:D16A"
+                          xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100">
+<rsm:ExchangedDocumentContext>
+    <ram:BusinessProcessSpecifiedDocumentContextParameter>
+    <ram:ID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</ram:ID>
+    </ram:BusinessProcessSpecifiedDocumentContextParameter>
+    <ram:GuidelineSpecifiedDocumentContextParameter>
+    <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0</ram:ID>
+    </ram:GuidelineSpecifiedDocumentContextParameter>
+</rsm:ExchangedDocumentContext>
+
+<rsm:ExchangedDocument>
+    <ram:ID>1300457821</ram:ID>
+    <ram:TypeCode>380</ram:TypeCode>
+    <ram:IssueDateTime>
+    <udt:DateTimeString format="102">20250210</udt:DateTimeString>
+    </ram:IssueDateTime>
+</rsm:ExchangedDocument>
+
+<rsm:SupplyChainTradeTransaction>
+    <ram:IncludedSupplyChainTradeLineItem>
+    <ram:AssociatedDocumentLineDocument>
+    <ram:LineID>9</ram:LineID>
+    </ram:AssociatedDocumentLineDocument>
+    <ram:SpecifiedTradeProduct>
+    <ram:Name>Antwort an Mandantin zur Ausgestaltung Supplier Code of Conduct.</ram:Name>
+    </ram:SpecifiedTradeProduct>
+        <ram:SpecifiedLineTradeAgreement>
+        <ram:NetPriceProductTradePrice>
+        <ram:ChargeAmount>280</ram:ChargeAmount>
+        </ram:NetPriceProductTradePrice>
+        </ram:SpecifiedLineTradeAgreement>
+    <ram:SpecifiedLineTradeDelivery>
+    <ram:BilledQuantity unitCode="HUR">0.7</ram:BilledQuantity>
+    </ram:SpecifiedLineTradeDelivery>
+    <ram:SpecifiedLineTradeSettlement>
+    <ram:ApplicableTradeTax>
+        <ram:TypeCode>VAT</ram:TypeCode>
+        <ram:CategoryCode>S</ram:CategoryCode>
+        <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
+    </ram:ApplicableTradeTax>
+    <ram:SpecifiedTradeSettlementLineMonetarySummation>
+    <ram:LineTotalAmount>280</ram:LineTotalAmount>
+    </ram:SpecifiedTradeSettlementLineMonetarySummation>
+    </ram:SpecifiedLineTradeSettlement>
+
+</ram:IncludedSupplyChainTradeLineItem>3<ram:IncludedSupplyChainTradeLineItem>
+    <ram:AssociatedDocumentLineDocument>
+    <ram:LineID>11</ram:LineID>
+    </ram:AssociatedDocumentLineDocument>
+    <ram:SpecifiedTradeProduct>
+        <ram:Name>filledupbyXimantix</ram:Name>
+    </ram:SpecifiedTradeProduct>
+    <ram:SpecifiedLineTradeAgreement>
+    <ram:NetPriceProductTradePrice>
+    <ram:ChargeAmount>9.8</ram:ChargeAmount>
+    </ram:NetPriceProductTradePrice>
+    </ram:SpecifiedLineTradeAgreement>
+    <ram:SpecifiedLineTradeDelivery>
+        <ram:BilledQuantity unitCode="HUR">1</ram:BilledQuantity>
+    </ram:SpecifiedLineTradeDelivery>
+    <ram:SpecifiedLineTradeSettlement>
+    <ram:ApplicableTradeTax>
+    <ram:TypeCode>VAT</ram:TypeCode>
+    <ram:CategoryCode>S</ram:CategoryCode>
+    <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
+    </ram:ApplicableTradeTax>
+    <ram:SpecifiedTradeSettlementLineMonetarySummation>
+    <ram:LineTotalAmount>9.8</ram:LineTotalAmount>
+    </ram:SpecifiedTradeSettlementLineMonetarySummation>
+    </ram:SpecifiedLineTradeSettlement>
+</ram:IncludedSupplyChainTradeLineItem>
+<ram:ApplicableHeaderTradeAgreement>
+<ram:BuyerReference>4550715728</ram:BuyerReference>
+
+<ram:SellerTradeParty>
+    <ram:Name>Taylor Wessing</ram:Name>
+    <ram:DefinedTradeContact>
+    <ram:PersonName>Rothermel</ram:PersonName>
+    <ram:TelephoneUniversalCommunication>
+    <ram:CompleteNumber>+49 89 210380</ram:CompleteNumber>
+    </ram:TelephoneUniversalCommunication>
+    <ram:EmailURIUniversalCommunication>
+    <ram:URIID>m.rothermel@taylorwessing.com</ram:URIID>
+    </ram:EmailURIUniversalCommunication>
+    </ram:DefinedTradeContact>
+    <ram:PostalTradeAddress>
+    <ram:PostcodeCode>80331</ram:PostcodeCode>
+    <ram:CityName>München</ram:CityName>
+    <ram:CountryID>DE</ram:CountryID>
+    </ram:PostalTradeAddress>
+    <ram:URIUniversalCommunication>
+    <ram:URIID schemeID="EM">m.rothermel@taylorwessing.com</ram:URIID>
+    </ram:URIUniversalCommunication>
+    <ram:SpecifiedTaxRegistration>
+    <ram:ID schemeID="VA">DE121196622</ram:ID>
+    </ram:SpecifiedTaxRegistration>
+</ram:SellerTradeParty>
+
+<ram:BuyerTradeParty>
+        <ram:Name>Speira GmbH</ram:Name>
+        <ram:DefinedTradeContact>
+            <ram:PersonName/>
+        </ram:DefinedTradeContact>
+        <ram:PostalTradeAddress>
+        <ram:PostcodeCode>41515</ram:PostcodeCode>
+        <ram:LineOne>Werk Grevenbroich</ram:LineOne>
+        <ram:CityName>Grevenbroich</ram:CityName>
+        <ram:CountryID>DE</ram:CountryID>
+        </ram:PostalTradeAddress>
+        <ram:URIUniversalCommunication>
+        <ram:URIID schemeID="EM">*</ram:URIID>
+        </ram:URIUniversalCommunication>
+</ram:BuyerTradeParty>
+
+<ram:ContractReferencedDocument>
+<ram:IssuerAssignedID/>
+</ram:ContractReferencedDocument>
+
+</ram:ApplicableHeaderTradeAgreement>
+<ram:ApplicableHeaderTradeDelivery/>
+
+<ram:ApplicableHeaderTradeSettlement>
+    <ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode>
+
+    <ram:SpecifiedTradeSettlementPaymentMeans>
+    <ram:TypeCode>30</ram:TypeCode>
+    <ram:PayeePartyCreditorFinancialAccount>
+    <ram:IBANID>DE54300700100732035100</ram:IBANID>
+    </ram:PayeePartyCreditorFinancialAccount>
+    </ram:SpecifiedTradeSettlementPaymentMeans>
+    <ram:ApplicableTradeTax>
+    <ram:CalculatedAmount>55.06</ram:CalculatedAmount>
+    <ram:TypeCode>VAT</ram:TypeCode>
+    <ram:BasisAmount>289.8</ram:BasisAmount>
+    <ram:CategoryCode>S</ram:CategoryCode>
+    <ram:RateApplicablePercent>19</ram:RateApplicablePercent>
+    </ram:ApplicableTradeTax>
+    <ram:SpecifiedTradePaymentTerms>
+    <ram:Description>Wir bitte um Zahlung des Rechnungsbetrages innerhalb der nächsten 3 Wochen</ram:Description>
+    </ram:SpecifiedTradePaymentTerms>
+    <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+    <ram:LineTotalAmount>289.8</ram:LineTotalAmount>
+    <ram:TaxBasisTotalAmount>289.8</ram:TaxBasisTotalAmount>
+    <ram:TaxTotalAmount currencyID="EUR">55.06</ram:TaxTotalAmount>
+    <ram:GrandTotalAmount>344.86</ram:GrandTotalAmount>
+    <ram:DuePayableAmount>344.86</ram:DuePayableAmount>
+    </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+</ram:ApplicableHeaderTradeSettlement>
+</rsm:SupplyChainTradeTransaction>
+</rsm:CrossIndustryInvoice>
